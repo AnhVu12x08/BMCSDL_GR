@@ -13,49 +13,53 @@ namespace Connect_Oracle
 {
     public partial class DangNhap : Form
     {
+        internal static OracleConnection conn;
+
         public DangNhap()
         {
             InitializeComponent();
             CenterToScreen();
         }
 
-       
-        bool Check_Textbox(string host, string port, string sid, string user, string pass)
+
+        public bool CheckTextBoxes(string host, string port, string sid, string user, string password)
         {
-               if(host == "")
-                {
-                    MessageBox.Show("Chưa điền thông tin Host");
-                    txt_host.Focus();
-                    return false;
-                }
-        else if (port == "")
-        {
-            MessageBox.Show("Chưa điền thông tin Port");
-            txt_port.Focus();
-            return false;
-        }
-        else if (sid == "")
-        {
-            MessageBox.Show("Chưa điền thông tin Sid");
-            txt_sid.Focus();
-            return false;
-        }
-        else if (user == "")
-        {
-            MessageBox.Show("Chưa điền thông tin UserName");
-            txt_user.Focus();
-            return false;
-        }
-        else if (pass == "")
-        {
-            MessageBox.Show("Chưa điền thông tin Password ");
-            txt_pass.Focus();
-            return false;
-        }
-        else
-         {
+            if (string.IsNullOrEmpty(host))
+            {
+                MessageBox.Show("Host is required.");
+                txt_host.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(port))
+            {
+                MessageBox.Show("Port is required.");
+                txt_port.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(sid))
+            {
+                MessageBox.Show("SID is required.");
+                txt_sid.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(user))
+            {
+                MessageBox.Show("Username is required.");
+                txt_user.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Password is required.");
+                txt_pass.Focus();
+                return false;
+            }
+
             return true;
-         }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,7 +70,7 @@ namespace Connect_Oracle
             string user = txt_user.Text;
             string pass = txt_pass.Text;
 
-            if(Check_Textbox(host,port,sid,user,pass))
+            if(CheckTextBoxes(host,port,sid,user,pass))
             {
                 Database.Set_database(host, port, sid, user, pass);
 
@@ -77,19 +81,20 @@ namespace Connect_Oracle
                     if (user == "sys" || user == "bmcsdl_1")
                     {
                         this.Hide();
-                        Phanquyen pq = new Phanquyen();
-                        pq.Show();
-                        MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
+                        LuaChon lc = new LuaChon();
+                        lc.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
+                        this.Hide();
+                        QLNV qlnv = new QLNV();
+                        qlnv.Show();
                     }
 
                 }
                 else
                 {
-                    MessageBox.Show("Đăng nhập thất bại");
+                    MessageBox.Show("Login Failed!");
                 }
             }
         }

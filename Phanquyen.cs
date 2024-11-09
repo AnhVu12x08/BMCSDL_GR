@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.ManagedDataAccess.Client;
+using Oracle.ManagedDataAccess.Types;
 
 namespace Connect_Oracle
 {
@@ -17,11 +19,24 @@ namespace Connect_Oracle
             InitializeComponent();
         }
 
-        private void clickLogout(object sender, EventArgs e)
+        //select all users from database and add it to combobox
+        private void AddGranter()
         {
-            DangNhap dn = new DangNhap();
-            dn.Show();
-            this.Close();
+            string query = "SELECT USERNAME FROM ALL_USERS";
+            OracleCommand cmd = new OracleCommand(query, DangNhap.conn);
+            OracleDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                cbbGranterSys.Items.Add(dr[0]);
+            }
+        }
+
+
+        private void clickBack(object sender, EventArgs e)
+        {
+            this.Hide();
+            LuaChon lc = new LuaChon();
+            lc.Show();
         }
     }
 }

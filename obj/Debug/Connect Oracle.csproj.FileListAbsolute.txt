@@ -70,3 +70,5 @@ E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.CopyComplete
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.exe
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.pdb
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.Phanquyen.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.LuaChon.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.QuanLyNguoiDung.resources

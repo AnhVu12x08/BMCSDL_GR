@@ -16,5 +16,12 @@ namespace Connect_Oracle
         {
             InitializeComponent();
         }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DangNhap dn = new DangNhap();
+            dn.Show();
+        }
     }
 }

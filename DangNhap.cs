@@ -76,9 +76,9 @@ namespace Connect_Oracle
                     OracleConnection c = Database.Get_Connect();
                     if (user == "sys" || user == "bmcsdl_1")
                     {
+                        this.Hide();
                         Phanquyen pq = new Phanquyen();
                         pq.Show();
-                        this.Close();
                         MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
                     }
                     else

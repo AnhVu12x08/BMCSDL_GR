@@ -69,11 +69,23 @@ namespace Connect_Oracle
             if(Check_Textbox(host,port,sid,user,pass))
             {
                 Database.Set_database(host, port, sid, user, pass);
+
+
                 if(Database.Connect())
                 {
                     OracleConnection c = Database.Get_Connect();
-                    MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
-                    
+                    if (user == "sys" || user == "bmcsdl_1")
+                    {
+                        Phanquyen pq = new Phanquyen();
+                        pq.Show();
+                        this.Close();
+                        MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
+                    }
+
                 }
                 else
                 {

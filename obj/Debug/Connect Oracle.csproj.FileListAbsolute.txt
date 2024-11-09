@@ -1,0 +1,71 @@
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.exe
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.exe
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.Cache
+E:\LuuDuLieuSV\hshdh\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\hshdh\Connect Oracle\bin\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\hshdh\Connect Oracle\bin\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\hshdh\Connect Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect Oracle.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.Cache
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect_Oracle.RSA_GUI.resources
+E:\LuuDuLieuSV\hshdh\Connect Oracle\obj\Debug\Connect_Oracle.RSAHC.resources
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\bin\Debug\Connect Oracle.exe
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\bin\Debug\Connect Oracle.pdb
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect .E2886829.Up2Date
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect Oracle.exe
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect Oracle.pdb
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect_Oracle.DangKy.resources
+C:\Users\mrpha\OneDrive\Desktop\Connect Oracle\obj\Debug\Connect_Oracle.QLNV.resources
+E:\BMCSDL\Main\bin\Debug\Connect Oracle.exe.config
+E:\BMCSDL\Main\bin\Debug\Connect Oracle.exe
+E:\BMCSDL\Main\bin\Debug\Connect Oracle.pdb
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+E:\BMCSDL\Main\obj\Debug\Connect_Oracle.DangKy.resources
+E:\BMCSDL\Main\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\BMCSDL\Main\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\BMCSDL\Main\obj\Debug\Connect_Oracle.QLNV.resources
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.CopyComplete
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.exe
+E:\BMCSDL\Main\obj\Debug\Connect Oracle.pdb
+E:\MonHOc\BMCSDL\Main\bin\Debug\Connect Oracle.exe.config
+E:\MonHOc\BMCSDL\Main\bin\Debug\Connect Oracle.exe
+E:\MonHOc\BMCSDL\Main\bin\Debug\Connect Oracle.pdb
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.DangKy.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.QLNV.resources
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.csproj.CopyComplete
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.exe
+E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.pdb

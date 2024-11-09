@@ -1,0 +1,20 @@
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.exe
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Connect Oracle.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.exe
+c:\users\administrator\documents\visual studio 2013\Projects\Connect Oracle\Connect Oracle\obj\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.exe.config
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.exe
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Connect Oracle.pdb
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\LuuDuLieuSV\PhamHoangPhuc_2033223777\Connect Oracle\obj\Debug\Connect Oracle.csproj.GenerateResource.Cache

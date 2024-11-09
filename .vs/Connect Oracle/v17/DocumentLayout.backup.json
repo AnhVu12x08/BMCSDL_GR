@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|c:\\users\\mrpha\\onedrive\\desktop\\connect oracle\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\rsaoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:rsaoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLNV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\QLNV.cs",
+              "RelativeDocumentMoniker": "QLNV.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\QLNV.cs [Design]",
+              "RelativeToolTip": "QLNV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:38:18.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs",
+              "RelativeDocumentMoniker": "DangKy.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs*",
+              "RelativeToolTip": "DangKy.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwFcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:55:24.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RSAOracle.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\RSAOracle.cs",
+              "RelativeDocumentMoniker": "RSAOracle.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\RSAOracle.cs",
+              "RelativeToolTip": "RSAOracle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:17:32.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:09:56.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs",
+              "RelativeDocumentMoniker": "DangKy.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs [Design]",
+              "RelativeToolTip": "DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:40:52.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:14:27.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "RelativeToolTip": "DangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:14:39.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DangNhap.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "DangNhap.Designer.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.Designer.cs",
+              "RelativeToolTip": "DangNhap.Designer.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAwwLMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:15:42.286Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

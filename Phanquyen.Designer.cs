@@ -30,17 +30,17 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnPrivilege = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.checklistObject = new System.Windows.Forms.CheckedListBox();
+            this.checklistObjectSys = new System.Windows.Forms.CheckedListBox();
             this.cbbGranteeSys = new System.Windows.Forms.ComboBox();
             this.cbbGranterSys = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.checklistObjectObj = new System.Windows.Forms.CheckedListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -64,11 +64,11 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.Controls.Add(this.btnPrivilege);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.checklistObject);
+            this.tabPage1.Controls.Add(this.checklistObjectSys);
             this.tabPage1.Controls.Add(this.cbbGranteeSys);
             this.tabPage1.Controls.Add(this.cbbGranterSys);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
@@ -79,14 +79,15 @@
             this.tabPage1.Text = "System Privileges";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPrivilege
             // 
-            this.button3.Location = new System.Drawing.Point(224, 395);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPrivilege.Location = new System.Drawing.Point(139, 181);
+            this.btnPrivilege.Name = "btnPrivilege";
+            this.btnPrivilege.Size = new System.Drawing.Size(75, 23);
+            this.btnPrivilege.TabIndex = 9;
+            this.btnPrivilege.Text = "Privilege";
+            this.btnPrivilege.UseVisualStyleBackColor = true;
+            this.btnPrivilege.Click += new System.EventHandler(this.clickPrivilegeSys);
             // 
             // button2
             // 
@@ -116,11 +117,10 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Granter";
             // 
-            // checklistObject
+            // checklistObjectSys
             // 
-            this.checklistObject.FormattingEnabled = true;
-            this.checklistObject.Items.AddRange(new object[] {
-            "CREATE SESSION",
+            this.checklistObjectSys.FormattingEnabled = true;
+            this.checklistObjectSys.Items.AddRange(new object[] {
             "CREATE TABLE",
             "CREATE USER",
             "ALTER USER",
@@ -134,10 +134,10 @@
             "UPDATE ANY TABLE",
             "DELETE ANY TABLE",
             "EXECUTE ANY PROCEDURE"});
-            this.checklistObject.Location = new System.Drawing.Point(533, 60);
-            this.checklistObject.Name = "checklistObject";
-            this.checklistObject.Size = new System.Drawing.Size(245, 327);
-            this.checklistObject.TabIndex = 2;
+            this.checklistObjectSys.Location = new System.Drawing.Point(533, 60);
+            this.checklistObjectSys.Name = "checklistObjectSys";
+            this.checklistObjectSys.Size = new System.Drawing.Size(313, 276);
+            this.checklistObjectSys.TabIndex = 2;
             // 
             // cbbGranteeSys
             // 
@@ -146,7 +146,6 @@
             this.cbbGranteeSys.Name = "cbbGranteeSys";
             this.cbbGranteeSys.Size = new System.Drawing.Size(179, 24);
             this.cbbGranteeSys.TabIndex = 1;
-            this.cbbGranteeSys.SelectedIndexChanged += new System.EventHandler(this.cbbGranteeSys_SelectedIndexChanged);
             // 
             // cbbGranterSys
             // 
@@ -160,7 +159,7 @@
             // 
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.checkedListBox2);
+            this.tabPage2.Controls.Add(this.checklistObjectObj);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label1);
@@ -194,19 +193,19 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.clickBack);
             // 
-            // checkedListBox2
+            // checklistObjectObj
             // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
+            this.checklistObjectObj.FormattingEnabled = true;
+            this.checklistObjectObj.Items.AddRange(new object[] {
             "SELECT",
             "INSERT",
             "UPDATE",
             "DELETE"});
-            this.checkedListBox2.Location = new System.Drawing.Point(32, 236);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkedListBox2.Size = new System.Drawing.Size(181, 106);
-            this.checkedListBox2.TabIndex = 6;
+            this.checklistObjectObj.Location = new System.Drawing.Point(32, 236);
+            this.checklistObjectObj.Name = "checklistObjectObj";
+            this.checklistObjectObj.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.checklistObjectObj.Size = new System.Drawing.Size(181, 106);
+            this.checklistObjectObj.TabIndex = 6;
             // 
             // label3
             // 
@@ -284,7 +283,7 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.ComboBox cbbGranteeSys;
         private System.Windows.Forms.ComboBox cbbGranterSys;
-        private System.Windows.Forms.CheckedListBox checklistObject;
+        private System.Windows.Forms.CheckedListBox checklistObjectSys;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbbObjectObj;
         private System.Windows.Forms.ComboBox cbbGranteeObj;
@@ -293,10 +292,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.CheckedListBox checklistObjectObj;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnPrivilege;
         private System.Windows.Forms.Button button4;
     }
 }

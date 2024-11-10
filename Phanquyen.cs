@@ -21,7 +21,7 @@ namespace Connect_Oracle
             AddGranter("cbbGranteeSys");
             AddGranter("cbbGranterObj");
             AddGranter("cbbGranteeObj");
-
+            cbbGranterSys.Text = "SYS";
         }
 
         //select all users from database and add it to combobox
@@ -115,8 +115,6 @@ namespace Connect_Oracle
         }
 
 
-
-
         private void clickBack(object sender, EventArgs e)
         {
             this.Hide();
@@ -124,8 +122,46 @@ namespace Connect_Oracle
             lc.Show();
         }
 
-        private void cbbGranteeSys_SelectedIndexChanged(object sender, EventArgs e)
+        //grant system privilege
+        private void clickPrivilegeSys(object sender, EventArgs e)
         {
+            if (cbbGranterSys.SelectedItem == null || cbbGranteeSys.SelectedItem == null || checklistObjectSys.SelectedItem == null)
+            {
+                MessageBox.Show("Please select all fields.");
+                return;
+            }
+
+            string granter = cbbGranterSys.SelectedItem.ToString();
+            string grantee = cbbGranteeSys.SelectedItem.ToString();
+            string privilege = checklistObjectSys.SelectedItem.ToString();
+
+            try
+            {
+                using(OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        string query = $"GRANT {privilege} TO {grantee}";
+                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        {
+                            cmd.ExecuteNonQuery();
+                            MessageBox.Show($"Granted {privilege} to {grantee} successfully.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                MessageBox.Show($"Oracle Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
 
         }
     }

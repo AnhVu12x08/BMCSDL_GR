@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 using Oracle.ManagedDataAccess.Types;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Connect_Oracle
 {
@@ -28,35 +29,29 @@ namespace Connect_Oracle
 
         private void ShowAllUsers(object sender, EventArgs e)
         {
-            string connectionString = "User Id=BMCSDL_1;Password=123;Data Source=localhost:1521/orcl";
-
-            try // Move try-catch outside the using block
+            try
             {
-                using (OracleConnection con = new OracleConnection(connectionString))
+                using (OracleConnection connection = Database.Get_Connect())
                 {
-                    con.Open();
-                    using (OracleCommand cmd = con.CreateCommand())
+                    if(connection != null)
                     {
-                        cmd.CommandText = "SELECT username FROM all_users"; // Consistent spacing
-
-                        listboxUsers.BeginUpdate(); // Prevent flickering during update
-                        listboxUsers.Items.Clear();
-
-                        using (OracleDataReader reader = cmd.ExecuteReader())
+                        using (OracleCommand cmd = new OracleCommand("SELECT * FROM ALL_USERS", connection))
+                        using (OracleDataReader dr = cmd.ExecuteReader())
                         {
-                            while (reader.Read())
-                            {
-                                listboxUsers.Items.Add(reader.GetString(0));
-                            }
+                            DataTable dt = new DataTable();
+                            dt.Load(dr);
+                            dgvUsers.DataSource = dt;
                         }
-
-                        listboxUsers.EndUpdate(); // Re-enable updates and redraw
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
                     }
                 }
             }
-            catch (OracleException ex)
+            catch (Exception ex)
             {
-                MessageBox.Show($"Error: {ex.Message}"); // String interpolation for slightly cleaner code
+                MessageBox.Show($"Error: {ex.Message}");
             }
         }
     }

@@ -177,27 +177,7 @@ namespace Connect_Oracle
             return validateGuidRegex.IsMatch(password);
         }
 
-        private void AssignRoleToUser(string username)
-        {
-            string connectionString = "User Id={username};Password={password};Data Source=localhost:1521/orcl";
-            using (OracleConnection conn = new OracleConnection(connectionString))
-            {
-                try
-                {
-                    conn.Open();
-                    string query = "GRANT CREATE SESSION TO :username";
-                    using (OracleCommand cmd = new OracleCommand(query, conn))
-                    {
-                        cmd.Parameters.Add(new OracleParameter("username", username));
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error assigning role: " + ex.Message);
-                }
-            }
-        }
+       
         private void ClearForm()
         {
             txtUsername.Clear();

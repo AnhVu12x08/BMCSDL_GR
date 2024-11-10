@@ -27,7 +27,6 @@ namespace Connect_Oracle
         //select all users from database and add it to combobox
         private void AddGranter(string componentName)
         {
-            // Get the ComboBox control based on its name
             ComboBox comboBox = this.Controls.Find(componentName, true).FirstOrDefault() as ComboBox;
 
 
@@ -125,7 +124,7 @@ namespace Connect_Oracle
         //grant system privilege
         private void clickPrivilegeSys(object sender, EventArgs e)
         {
-            if (cbbGranterSys.SelectedItem == null || cbbGranteeSys.SelectedItem == null || checklistObjectSys.SelectedItem == null)
+            if (cbbGranterSys.SelectedItem == null || cbbGranteeSys.SelectedItem == null || checklistObjectSys.CheckedItems.Count == 0)
             {
                 MessageBox.Show("Please select all fields.");
                 return;
@@ -133,20 +132,23 @@ namespace Connect_Oracle
 
             string granter = cbbGranterSys.SelectedItem.ToString();
             string grantee = cbbGranteeSys.SelectedItem.ToString();
-            string privilege = checklistObjectSys.SelectedItem.ToString();
 
             try
             {
-                using(OracleConnection connection = Database.Get_Connect())
+                using (OracleConnection connection = Database.Get_Connect())
                 {
                     if (connection != null)
                     {
-                        string query = $"GRANT {privilege} TO {grantee}";
-                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        foreach (string privilege in checklistObjectSys.CheckedItems.OfType<string>())
                         {
-                            cmd.ExecuteNonQuery();
-                            MessageBox.Show($"Granted {privilege} to {grantee} successfully.");
+                            string query = $"GRANT {privilege} TO {grantee}";
+                            using (OracleCommand cmd = new OracleCommand(query, connection))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
                         }
+                        MessageBox.Show($"Granted privileges to {grantee} successfully.");
+
                     }
                     else
                     {
@@ -162,7 +164,6 @@ namespace Connect_Oracle
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
-
         }
     }
 }

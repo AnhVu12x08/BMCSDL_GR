@@ -30,6 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -37,6 +38,7 @@
             this.cbbGranteeSys = new System.Windows.Forms.ComboBox();
             this.cbbGranterSys = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,8 +47,6 @@
             this.cbbObjectObj = new System.Windows.Forms.ComboBox();
             this.cbbGranteeObj = new System.Windows.Forms.ComboBox();
             this.cbbGranterObj = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -78,6 +78,15 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "System Privileges";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(224, 395);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -166,6 +175,15 @@
             this.tabPage2.Text = "Object Privileges";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(399, 366);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(874, 15);
@@ -224,6 +242,7 @@
             this.cbbObjectObj.Name = "cbbObjectObj";
             this.cbbObjectObj.Size = new System.Drawing.Size(201, 24);
             this.cbbObjectObj.TabIndex = 2;
+            this.cbbObjectObj.Click += new System.EventHandler(this.cbbGranterSys_SelectedIndexChanged);
             // 
             // cbbGranteeObj
             // 
@@ -240,24 +259,6 @@
             this.cbbGranterObj.Name = "cbbGranterObj";
             this.cbbGranterObj.Size = new System.Drawing.Size(200, 24);
             this.cbbGranterObj.TabIndex = 0;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(224, 395);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(399, 366);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // Phanquyen
             // 

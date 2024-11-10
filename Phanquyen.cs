@@ -65,13 +65,12 @@ namespace Connect_Oracle
         }
 
         //show table of chosen granter and show to obbject combobox
-
         private void cbbGranterSys_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbbGranterObj.SelectedItem == null) return;
 
 
-            string granter = cbbGranterSys.SelectedItem.ToString();
+            string granter = cbbGranterObj.SelectedItem.ToString();
             cbbObjectObj.Items.Clear();
 
 

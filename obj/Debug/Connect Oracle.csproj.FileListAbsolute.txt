@@ -72,3 +72,19 @@ E:\MonHOc\BMCSDL\Main\obj\Debug\Connect Oracle.pdb
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.Phanquyen.resources
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.LuaChon.resources
 E:\MonHOc\BMCSDL\Main\obj\Debug\Connect_Oracle.QuanLyNguoiDung.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\bin\Debug\Connect Oracle.exe.config
+E:\MonHOc\BMCSDL\BMCSDL_GR\bin\Debug\Connect Oracle.exe
+E:\MonHOc\BMCSDL\BMCSDL_GR\bin\Debug\Connect Oracle.pdb
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.DangKy.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.DangNhap.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.LuaChon.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.Phanquyen.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.Properties.Resources.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.QLNV.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect_Oracle.QuanLyNguoiDung.resources
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CopyComplete
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.exe
+E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.pdb

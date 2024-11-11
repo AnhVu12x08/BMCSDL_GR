@@ -15,11 +15,36 @@ namespace Connect_Oracle
 {
     public partial class QuanLyNguoiDung : Form
     {
+        OracleConnection conn;
+        Profile Proc;
+
         public QuanLyNguoiDung()
         {
             InitializeComponent();
+            CenterToScreen();
+            conn = Database.Get_Connect();
+            Proc = new Profile(conn);
+            Load_Combobox();
         }
 
+        void Load_Combobox()
+        {
+            try
+            {
+                DataTable read = Proc.GetName_Profile();
+
+                foreach (DataRow r in read.Rows)
+                {
+                    cbbSys.Items.Add(r[0]);
+                }
+                cbbSys.SelectedIndex = 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.GetBaseException().ToString());
+            }
+            
+        }
         private void clickBack(object sender, EventArgs e)
         {
             this.Hide();
@@ -33,7 +58,7 @@ namespace Connect_Oracle
             {
                 using (OracleConnection connection = Database.Get_Connect())
                 {
-                    if(connection != null)
+                    if (connection != null)
                     {
                         using (OracleCommand cmd = new OracleCommand("SELECT * FROM ALL_USERS", connection))
                         using (OracleDataReader dr = cmd.ExecuteReader())
@@ -53,6 +78,13 @@ namespace Connect_Oracle
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void cbbSys_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int i = cbbSys.SelectedIndex;
+            string profile = cbbSys.SelectedItem.ToString();
+            dgvUsers.DataSource = Proc.Get_Profile(profile);
         }
     }
 }

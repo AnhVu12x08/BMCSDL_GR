@@ -50,7 +50,7 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btGrantObjPrivi = new System.Windows.Forms.Button();
             this.checklistObjectObj = new System.Windows.Forms.CheckedListBox();
             this.cbbGranterObj = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -62,6 +62,15 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.clbPriviRevokeSys = new System.Windows.Forms.CheckedListBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.cbbGranterRevorkObject = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cbbGranteeRevorkObject = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cbbObjectRevorkObject = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.cbbPriviRevorkObject = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -290,7 +299,7 @@
             // 
             this.tabPage3.Controls.Add(this.label6);
             this.tabPage3.Controls.Add(this.button1);
-            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.btGrantObjPrivi);
             this.tabPage3.Controls.Add(this.checklistObjectObj);
             this.tabPage3.Controls.Add(this.cbbGranterObj);
             this.tabPage3.Controls.Add(this.label3);
@@ -327,14 +336,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.clickBack);
             // 
-            // button4
+            // btGrantObjPrivi
             // 
-            this.button4.Location = new System.Drawing.Point(404, 190);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btGrantObjPrivi.Location = new System.Drawing.Point(302, 198);
+            this.btGrantObjPrivi.Name = "btGrantObjPrivi";
+            this.btGrantObjPrivi.Size = new System.Drawing.Size(138, 23);
+            this.btGrantObjPrivi.TabIndex = 8;
+            this.btGrantObjPrivi.Text = "Grant ObjPrivi";
+            this.btGrantObjPrivi.UseVisualStyleBackColor = true;
+            this.btGrantObjPrivi.Click += new System.EventHandler(this.btGrantObjPrivi_Click);
             // 
             // checklistObjectObj
             // 
@@ -404,6 +414,15 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label14);
+            this.tabPage4.Controls.Add(this.cbbPriviRevorkObject);
+            this.tabPage4.Controls.Add(this.button4);
+            this.tabPage4.Controls.Add(this.cbbGranterRevorkObject);
+            this.tabPage4.Controls.Add(this.label11);
+            this.tabPage4.Controls.Add(this.cbbGranteeRevorkObject);
+            this.tabPage4.Controls.Add(this.label12);
+            this.tabPage4.Controls.Add(this.cbbObjectRevorkObject);
+            this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Controls.Add(this.button5);
             this.tabPage4.Controls.Add(this.label7);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
@@ -445,6 +464,83 @@
             this.clbPriviRevokeSys.Size = new System.Drawing.Size(295, 293);
             this.clbPriviRevokeSys.TabIndex = 19;
             this.clbPriviRevokeSys.Click += new System.EventHandler(this.cbbPriviRevokeSys_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(310, 175);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(138, 23);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Revork ObjPrivi";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // cbbGranterRevorkObject
+            // 
+            this.cbbGranterRevorkObject.FormattingEnabled = true;
+            this.cbbGranterRevorkObject.Location = new System.Drawing.Point(63, 103);
+            this.cbbGranterRevorkObject.Name = "cbbGranterRevorkObject";
+            this.cbbGranterRevorkObject.Size = new System.Drawing.Size(181, 24);
+            this.cbbGranterRevorkObject.TabIndex = 12;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(472, 84);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 16);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Object";
+            // 
+            // cbbGranteeRevorkObject
+            // 
+            this.cbbGranteeRevorkObject.FormattingEnabled = true;
+            this.cbbGranteeRevorkObject.Location = new System.Drawing.Point(267, 103);
+            this.cbbGranteeRevorkObject.Name = "cbbGranteeRevorkObject";
+            this.cbbGranteeRevorkObject.Size = new System.Drawing.Size(181, 24);
+            this.cbbGranteeRevorkObject.TabIndex = 13;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(264, 84);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(62, 16);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Grantee";
+            // 
+            // cbbObjectRevorkObject
+            // 
+            this.cbbObjectRevorkObject.FormattingEnabled = true;
+            this.cbbObjectRevorkObject.Location = new System.Drawing.Point(475, 103);
+            this.cbbObjectRevorkObject.Name = "cbbObjectRevorkObject";
+            this.cbbObjectRevorkObject.Size = new System.Drawing.Size(181, 24);
+            this.cbbObjectRevorkObject.TabIndex = 14;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(60, 84);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(58, 16);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "Granter";
+            // 
+            // cbbPriviRevorkObject
+            // 
+            this.cbbPriviRevorkObject.FormattingEnabled = true;
+            this.cbbPriviRevorkObject.Location = new System.Drawing.Point(697, 103);
+            this.cbbPriviRevorkObject.Name = "cbbPriviRevorkObject";
+            this.cbbPriviRevorkObject.Size = new System.Drawing.Size(181, 24);
+            this.cbbPriviRevorkObject.TabIndex = 20;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(694, 84);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 16);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "Privileges";
             // 
             // Phanquyen
             // 
@@ -488,7 +584,7 @@
         private System.Windows.Forms.CheckedListBox checklistObjectObj;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnPrivilege;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btGrantObjPrivi;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
@@ -507,5 +603,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckedListBox clbPriviRevokeSys;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox cbbPriviRevorkObject;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox cbbGranterRevorkObject;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cbbGranteeRevorkObject;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbbObjectRevorkObject;
+        private System.Windows.Forms.Label label13;
     }
 }

@@ -33,6 +33,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dgvUsers = new System.Windows.Forms.DataGridView();
+            this.cbbSys = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(78, 273);
+            this.button2.Location = new System.Drawing.Point(183, 37);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -57,7 +58,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(249, 273);
+            this.button3.Location = new System.Drawing.Point(307, 37);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
@@ -66,7 +67,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(434, 273);
+            this.button4.Location = new System.Drawing.Point(492, 37);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
@@ -76,18 +77,28 @@
             // dgvUsers
             // 
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsers.Location = new System.Drawing.Point(53, 47);
+            this.dgvUsers.Location = new System.Drawing.Point(12, 96);
             this.dgvUsers.Name = "dgvUsers";
             this.dgvUsers.RowHeadersWidth = 51;
             this.dgvUsers.RowTemplate.Height = 24;
-            this.dgvUsers.Size = new System.Drawing.Size(240, 150);
+            this.dgvUsers.Size = new System.Drawing.Size(994, 342);
             this.dgvUsers.TabIndex = 5;
+            // 
+            // cbbSys
+            // 
+            this.cbbSys.FormattingEnabled = true;
+            this.cbbSys.Location = new System.Drawing.Point(13, 35);
+            this.cbbSys.Name = "cbbSys";
+            this.cbbSys.Size = new System.Drawing.Size(121, 24);
+            this.cbbSys.TabIndex = 6;
+            this.cbbSys.SelectedIndexChanged += new System.EventHandler(this.cbbSys_SelectedIndexChanged);
             // 
             // QuanLyNguoiDung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1018, 450);
+            this.Controls.Add(this.cbbSys);
             this.Controls.Add(this.dgvUsers);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -107,5 +118,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dgvUsers;
+        private System.Windows.Forms.ComboBox cbbSys;
     }
 }

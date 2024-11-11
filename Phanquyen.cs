@@ -24,6 +24,48 @@ namespace Connect_Oracle
             AddGranter("cbbObjectObj");
             AddGranter("cbbUserRevokeSys");
             cbbGranterObj.Text = "BMCSDL_1";
+            AddGranter("cbbGranterRevorkObject");
+            AddGranter("cbbGranteeRevorkObject");
+            AddObject("cbbObjectRevorkObject");
+
+        }
+
+        //add object to combobox
+        private void AddObject(string componentName)
+        {
+            ComboBox comboBox = this.Controls.Find(componentName, true).FirstOrDefault() as ComboBox;
+
+            if (comboBox == null)
+            {
+                MessageBox.Show($"Error: ComboBox '{componentName}' not found.");
+                return;
+            }
+
+            try
+            {
+                using (OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        using (OracleCommand cmd = new OracleCommand("SELECT OBJECT_NAME FROM ALL_OBJECTS WHERE OBJECT_TYPE = 'TABLE'", connection))
+                        using (OracleDataReader dr = cmd.ExecuteReader())
+                        {
+                            while (dr.Read())
+                            {
+                                comboBox.Items.Add(dr[0].ToString());
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
 
         private void AddGranter(string componentName)
@@ -67,10 +109,10 @@ namespace Connect_Oracle
         //show table of chosen granter and show to obbject combobox
         private void cbbGranterSys_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbbGranterObj.SelectedItem == null) return;
+            if (cbbGranterRevorkObject.SelectedItem == null) return;
 
 
-            string granter = cbbGranterObj.SelectedItem.ToString();
+            string granter = cbbGranterRevorkObject.SelectedItem.ToString();
             cbbObjectObj.Items.Clear();
 
 
@@ -254,6 +296,53 @@ namespace Connect_Oracle
                 MessageBox.Show($"Error: {ex.Message}");
             }
 
+        }
+
+
+        //grant object privilege
+        private void btGrantObjPrivi_Click(object sender, EventArgs e)
+        {
+            if (cbbGranterObj.SelectedItem == null || cbbGranteeObj.SelectedItem == null || checklistObjectObj.CheckedItems.Count == 0)
+            {
+                MessageBox.Show("Please select all fields.");
+                return;
+            }
+
+            string granter = cbbGranterObj.SelectedItem.ToString();
+            string grantee = cbbGranteeObj.SelectedItem.ToString();
+            string Obj = cbbObjectObj.SelectedItem.ToString();
+
+            try
+            {
+                using (OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        foreach (string privilege in checklistObjectObj.CheckedItems.OfType<string>())
+                        {
+                            string query = $"GRANT {privilege} ON BMCSDL_1.{Obj} TO {grantee}";
+                            using (OracleCommand cmd = new OracleCommand(query, connection))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+                        MessageBox.Show($"Granted privileges to {grantee} successfully.");
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                MessageBox.Show($"Oracle Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
     }
 }

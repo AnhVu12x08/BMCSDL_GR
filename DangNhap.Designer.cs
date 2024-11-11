@@ -121,7 +121,7 @@
             this.txt_user.Location = new System.Drawing.Point(209, 348);
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(431, 34);
-            this.txt_user.TabIndex = 10;
+            this.txt_user.TabIndex = 1;
             // 
             // txt_pass
             // 
@@ -129,14 +129,14 @@
             this.txt_pass.Location = new System.Drawing.Point(209, 430);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.Size = new System.Drawing.Size(431, 34);
-            this.txt_pass.TabIndex = 11;
+            this.txt_pass.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(292, 485);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 40);
-            this.button1.TabIndex = 12;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);

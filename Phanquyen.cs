@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Deployment.Application;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,14 +18,14 @@ namespace Connect_Oracle
         public Phanquyen()
         {
             InitializeComponent();
-            AddGranter("cbbGranterSys");
             AddGranter("cbbGranteeSys");
             AddGranter("cbbGranterObj");
             AddGranter("cbbGranteeObj");
-            cbbGranterSys.Text = "SYS";
+            AddGranter("cbbObjectObj");
+            AddGranter("cbbUserRevokeSys");
+            cbbGranterObj.Text = "BMCSDL_1";
         }
 
-        //select all users from database and add it to combobox
         private void AddGranter(string componentName)
         {
             ComboBox comboBox = this.Controls.Find(componentName, true).FirstOrDefault() as ComboBox;
@@ -33,7 +34,7 @@ namespace Connect_Oracle
             if (comboBox == null)
             {
                 MessageBox.Show($"Error: ComboBox '{componentName}' not found.");
-                return; 
+                return;
             }
 
             try
@@ -47,7 +48,7 @@ namespace Connect_Oracle
                         {
                             while (dr.Read())
                             {
-                                comboBox.Items.Add(dr[0].ToString()); 
+                                comboBox.Items.Add(dr[0].ToString());
                             }
                         }
                     }
@@ -79,7 +80,6 @@ namespace Connect_Oracle
                 {
                     if (connection != null)
                     {
-                        // Use UPPER() in the query as well for case-insensitive comparison
                         string query = $"SELECT TABLE_NAME FROM ALL_TABLES WHERE UPPER(OWNER) = '{granter}'";
                         using (OracleCommand cmd = new OracleCommand(query, connection))
                         using (OracleDataReader dr = cmd.ExecuteReader())
@@ -124,13 +124,12 @@ namespace Connect_Oracle
         //grant system privilege
         private void clickPrivilegeSys(object sender, EventArgs e)
         {
-            if (cbbGranterSys.SelectedItem == null || cbbGranteeSys.SelectedItem == null || checklistObjectSys.CheckedItems.Count == 0)
+            if (cbbGranteeSys.SelectedItem == null || checklistObjectSys.CheckedItems.Count == 0)
             {
                 MessageBox.Show("Please select all fields.");
                 return;
             }
 
-            string granter = cbbGranterSys.SelectedItem.ToString();
             string grantee = cbbGranteeSys.SelectedItem.ToString();
 
             try
@@ -164,6 +163,97 @@ namespace Connect_Oracle
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+
+        //revoke system privilege
+        private void btnRevokeSys_Click(object sender, EventArgs e)
+        {
+            if (cbbUserRevokeSys.SelectedItem == null || clbPriviRevokeSys.CheckedItems.Count == 0)
+            {
+                MessageBox.Show("Please select all fields.");
+                return;
+            }
+
+            try
+            {
+                using(OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        string user = cbbUserRevokeSys.SelectedItem.ToString();
+                        foreach (string privilege in clbPriviRevokeSys.CheckedItems.OfType<string>())
+                        {
+                            string query = $"REVOKE {privilege} FROM {user}";
+                            using (OracleCommand cmd = new OracleCommand(query, connection))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+                        MessageBox.Show($"Revoked privileges from {user} successfully.");
+                        clbPriviRevokeSys.Items.Clear();
+                        cbbPriviRevokeSys_Click(sender, e);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+
+        
+
+        //list all user privilege to checklistbox
+        private void cbbPriviRevokeSys_Click(object sender, EventArgs e)
+        {
+            if (cbbUserRevokeSys.SelectedItem == null) return;
+
+            string user = cbbUserRevokeSys.SelectedItem.ToString();
+            clbPriviRevokeSys.Items.Clear();
+
+            try
+            {
+                using (OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        string query = $"SELECT PRIVILEGE FROM DBA_SYS_PRIVS WHERE GRANTEE = '{user}'";
+                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        using (OracleDataReader dr = cmd.ExecuteReader())
+                        {
+                            if (!dr.HasRows)
+                            {
+                                MessageBox.Show($"User '{user}' does not have any system privileges.");
+                            }
+                            else
+                            {
+                                while (dr.Read())
+                                {
+                                    clbPriviRevokeSys.Items.Add(dr[0].ToString());
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                MessageBox.Show($"Oracle Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+
         }
     }
 }

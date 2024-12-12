@@ -88,3 +88,39 @@ E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cac
 E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CopyComplete
 E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.exe
 E:\MonHOc\BMCSDL\BMCSDL_GR\obj\Debug\Connect Oracle.pdb
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.exe
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.exe.config
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.ChangeIF_User.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.DangKy.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.DangNhap.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.LuaChon.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Phanquyen.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Properties.Resources.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.QLKH.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.QuanLyNhanVien.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect .E2886829.Up2Date
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.exe
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.pdb
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.pdb
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.exe.config
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.exe
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\bin\Debug\Connect Oracle.pdb
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.ChangeIF_User.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.DangKy.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.DangNhap.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.LuaChon.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Phanquyen.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Properties.Resources.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.QLKH.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.QuanLyNhanVien.resources
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.GenerateResource.cache
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect .E2886829.Up2Date
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.exe
+C:\Users\admin\OneDrive - Industrial University of HoChiMinh City\Desktop\BMCSDL_GR\obj\Debug\Connect Oracle.pdb
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Add_Customers.resources
+C:\Users\mrpha\OneDrive\Desktop\BMCSDL_GR\obj\Debug\Connect_Oracle.Room.resources

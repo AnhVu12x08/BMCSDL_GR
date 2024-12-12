@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.cb_pass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Host
@@ -82,7 +83,7 @@
             // pass
             // 
             this.pass.AutoSize = true;
-            this.pass.Location = new System.Drawing.Point(60, 435);
+            this.pass.Location = new System.Drawing.Point(60, 430);
             this.pass.Name = "pass";
             this.pass.Size = new System.Drawing.Size(142, 29);
             this.pass.TabIndex = 6;
@@ -133,7 +134,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(292, 485);
+            this.button1.Location = new System.Drawing.Point(292, 513);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 40);
             this.button1.TabIndex = 3;
@@ -162,11 +163,24 @@
             this.linkLabel1.Text = "Dont have an account yet?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.clickDHAC);
             // 
+            // cb_pass
+            // 
+            this.cb_pass.AutoSize = true;
+            this.cb_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_pass.Location = new System.Drawing.Point(209, 470);
+            this.cb_pass.Name = "cb_pass";
+            this.cb_pass.Size = new System.Drawing.Size(137, 22);
+            this.cb_pass.TabIndex = 16;
+            this.cb_pass.Text = "Show password";
+            this.cb_pass.UseVisualStyleBackColor = true;
+            this.cb_pass.CheckedChanged += new System.EventHandler(this.cb_pass_CheckedChanged);
+            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 635);
+            this.Controls.Add(this.cb_pass);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -203,6 +217,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.CheckBox cb_pass;
     }
 }
 

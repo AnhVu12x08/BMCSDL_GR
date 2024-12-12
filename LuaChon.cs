@@ -20,7 +20,7 @@ namespace Connect_Oracle
         private void clickManageUsers(object sender, EventArgs e)
         {
             this.Hide();
-            QuanLyNguoiDung qly = new QuanLyNguoiDung();
+            QuanLyNhanVien qly = new QuanLyNhanVien();
             qly.Show();
         }
 

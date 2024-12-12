@@ -1,37 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\",
+  "WorkspaceRootPath": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|c:\\users\\mrpha\\onedrive\\desktop\\connect oracle\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|c:\\users\\mrpha\\onedrive\\desktop\\bmcsdl_gr\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\mhoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:mhoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\luachon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:luachon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\changeif_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:changeif_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:qlkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\add_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:add_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\add_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:add_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\changeif_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:changeif_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\rsaoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:rsaoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C73588B-F3B8-429C-9703-1A7B16010434}|Connect Oracle.csproj|solutionrelative:dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,97 +98,261 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QLNV.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\QLNV.cs",
-              "RelativeDocumentMoniker": "QLNV.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\QLNV.cs [Design]",
-              "RelativeToolTip": "QLNV.cs [Design]",
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangKy.cs",
+              "RelativeDocumentMoniker": "DangKy.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangKy.cs",
+              "RelativeToolTip": "DangKy.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwIwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:55:24.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Room.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Room.cs",
+              "RelativeDocumentMoniker": "Room.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Room.cs [Design]",
+              "RelativeToolTip": "Room.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:57:00.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLKH.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QLKH.cs",
+              "RelativeDocumentMoniker": "QLKH.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QLKH.cs [Design]",
+              "RelativeToolTip": "QLKH.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T14:38:18.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangKy.cs",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs",
-              "RelativeDocumentMoniker": "DangKy.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs*",
-              "RelativeToolTip": "DangKy.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAiwFcAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "QuanLyNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QuanLyNhanVien.cs [Design]",
+              "RelativeToolTip": "QuanLyNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:55:24.844Z",
+              "WhenOpened": "2024-11-27T08:30:18.634Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QuanLyNhanVien.cs",
+              "RelativeToolTip": "QuanLyNhanVien.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIAwwHsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:47:19.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RSAOracle.cs",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\RSAOracle.cs",
-              "RelativeDocumentMoniker": "RSAOracle.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\RSAOracle.cs",
-              "RelativeToolTip": "RSAOracle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Profile.cs",
+              "RelativeDocumentMoniker": "Profile.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Profile.cs",
+              "RelativeToolTip": "Profile.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:20:59.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MHOracle.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\MHOracle.cs",
+              "RelativeDocumentMoniker": "MHOracle.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\MHOracle.cs",
+              "RelativeToolTip": "MHOracle.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAmwMMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:17:32.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "LuaChon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\LuaChon.cs",
+              "RelativeDocumentMoniker": "LuaChon.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\LuaChon.cs [Design]",
+              "RelativeToolTip": "LuaChon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:27:30.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.cs",
               "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs [Design]",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.cs [Design]",
               "RelativeToolTip": "DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:09:56.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Phanquyen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Phanquyen.cs",
+              "RelativeDocumentMoniker": "Phanquyen.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Phanquyen.cs [Design]",
+              "RelativeToolTip": "Phanquyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:16:08.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangeIF_User.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\ChangeIF_User.cs",
+              "RelativeDocumentMoniker": "ChangeIF_User.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\ChangeIF_User.cs [Design]",
+              "RelativeToolTip": "ChangeIF_User.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:58:09.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangKy.cs",
               "RelativeDocumentMoniker": "DangKy.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangKy.cs [Design]",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangKy.cs [Design]",
               "RelativeToolTip": "DangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:40:52.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\Database.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Database.cs",
               "RelativeDocumentMoniker": "Database.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\Database.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Database.cs",
               "RelativeToolTip": "Database.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwCMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:14:27.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
+              "Title": "QLKH.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QLKH.cs",
+              "RelativeDocumentMoniker": "QLKH.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\QLKH.cs",
+              "RelativeToolTip": "QLKH.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwKIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:51:52.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add_Customers.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Add_Customers.cs",
+              "RelativeDocumentMoniker": "Add_Customers.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Add_Customers.cs",
+              "RelativeToolTip": "Add_Customers.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwNEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:48:05.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Add_Customers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Add_Customers.cs",
+              "RelativeDocumentMoniker": "Add_Customers.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Add_Customers.cs [Design]",
+              "RelativeToolTip": "Add_Customers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:47:35.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangeIF_User.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\ChangeIF_User.cs",
+              "RelativeDocumentMoniker": "ChangeIF_User.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\ChangeIF_User.cs",
+              "RelativeToolTip": "ChangeIF_User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwKgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:07:53.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Phanquyen.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Phanquyen.cs",
+              "RelativeDocumentMoniker": "Phanquyen.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Phanquyen.cs",
+              "RelativeToolTip": "Phanquyen.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAASwKIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:16:23.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Room.cs",
+              "RelativeDocumentMoniker": "Room.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Room.cs",
+              "RelativeToolTip": "Room.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAEwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:05:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T01:06:00.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.cs",
               "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.cs",
               "RelativeToolTip": "DangNhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T03:14:39.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "DangNhap.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.Designer.cs",
               "RelativeDocumentMoniker": "DangNhap.Designer.cs",
-              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\Connect Oracle\\DangNhap.Designer.cs",
+              "ToolTip": "C:\\Users\\mrpha\\OneDrive\\Desktop\\BMCSDL_GR\\DangNhap.Designer.cs",
               "RelativeToolTip": "DangNhap.Designer.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAwwLMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

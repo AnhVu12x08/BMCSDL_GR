@@ -158,7 +158,7 @@
             // 
             this.linnkLabel1.AutoSize = true;
             this.linnkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.linnkLabel1.Location = new System.Drawing.Point(284, 478);
+            this.linnkLabel1.Location = new System.Drawing.Point(270, 482);
             this.linnkLabel1.Name = "linnkLabel1";
             this.linnkLabel1.Size = new System.Drawing.Size(308, 29);
             this.linnkLabel1.TabIndex = 12;

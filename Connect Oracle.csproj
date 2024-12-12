@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Customers.Designer.cs">
+      <DependentUpon>Add_Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeIF_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeIF_User.Designer.cs">
+      <DependentUpon>ChangeIF_User.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangKy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,19 +86,31 @@
     <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLNV.cs">
+    <Compile Include="QLKH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLNV.Designer.cs">
-      <DependentUpon>QLNV.cs</DependentUpon>
+    <Compile Include="QLKH.Designer.cs">
+      <DependentUpon>QLKH.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyNguoiDung.cs">
+    <Compile Include="QuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyNguoiDung.Designer.cs">
-      <DependentUpon>QuanLyNguoiDung.cs</DependentUpon>
+    <Compile Include="QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="RSAOracle.cs" />
+    <Compile Include="Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room.Designer.cs">
+      <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MHOracle.cs" />
+    <EmbeddedResource Include="Add_Customers.resx">
+      <DependentUpon>Add_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeIF_User.resx">
+      <DependentUpon>ChangeIF_User.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,11 +133,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="QLNV.resx">
-      <DependentUpon>QLNV.cs</DependentUpon>
+    <EmbeddedResource Include="QLKH.resx">
+      <DependentUpon>QLKH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyNguoiDung.resx">
-      <DependentUpon>QuanLyNguoiDung.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLyNhanVien.resx">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room.resx">
+      <DependentUpon>Room.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -75,9 +75,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(671, 53);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(685, 22);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(103, 34);
             this.button5.TabIndex = 4;
             this.button5.Text = "Logout";
             this.button5.UseVisualStyleBackColor = true;

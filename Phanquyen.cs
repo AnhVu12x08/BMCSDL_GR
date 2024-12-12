@@ -107,13 +107,14 @@ namespace Connect_Oracle
         }
 
         //show table of chosen granter and show to obbject combobox
-        private void cbbGranterSys_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbbGranterSys_SelectedIndexChanged(object sender, EventArgs e) 
         {
             if (cbbGranterRevorkObject.SelectedItem == null) return;
 
 
             string granter = cbbGranterRevorkObject.SelectedItem.ToString();
             cbbObjectObj.Items.Clear();
+            cbbObjectRevorkObject.Items.Clear();
 
 
             try
@@ -135,6 +136,7 @@ namespace Connect_Oracle
                                 while (dr.Read())
                                 {
                                     cbbObjectObj.Items.Add(dr[0].ToString());
+                                    cbbObjectRevorkObject.Items.Add(dr[0].ToString());
                                 }
                             }
                         }
@@ -251,7 +253,7 @@ namespace Connect_Oracle
         
 
         //list all user privilege to checklistbox
-        private void cbbPriviRevokeSys_Click(object sender, EventArgs e)
+        private void cbbPriviRevokeSys_Click(object sender, EventArgs e)      
         {
             if (cbbUserRevokeSys.SelectedItem == null) return;
 
@@ -328,6 +330,107 @@ namespace Connect_Oracle
                         }
                         MessageBox.Show($"Granted privileges to {grantee} successfully.");
 
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                MessageBox.Show($"Oracle Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+
+        private void cbbPriviRevorkObject_Click(object sender, EventArgs e)
+        {
+            if (cbbGranteeRevorkObject.SelectedItem == null || cbbObjectRevorkObject.SelectedItem == null) return;
+
+            string grantee = cbbGranteeRevorkObject.SelectedItem.ToString();
+            string obj = cbbObjectRevorkObject.SelectedItem.ToString();
+
+            cbbPriviRevorkObject.Items.Clear();
+
+            try
+            {
+                using (OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+                        
+                        string query = $@"
+                                        SELECT PRIVILEGE 
+                                        FROM DBA_TAB_PRIVS 
+                                        WHERE GRANTEE = '{grantee}' AND TABLE_NAME = '{obj}'";
+
+                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        using (OracleDataReader dr = cmd.ExecuteReader())
+                        {
+                            if (!dr.HasRows)
+                            {
+                                MessageBox.Show($"User '{grantee}' does not have any object privileges on '{obj}'.");
+                            }
+                            else
+                            {
+                                while (dr.Read())
+                                {
+                                    cbbPriviRevorkObject.Items.Add(dr["PRIVILEGE"].ToString());
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Not connected to the database!");
+                    }
+                }
+            }
+            catch (OracleException ex)
+            {
+                MessageBox.Show($"Oracle Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+
+        private void btnRevokeObjPrivi_Click(object sender, EventArgs e)
+        {
+            if (cbbGranterRevorkObject.SelectedItem == null || cbbGranteeRevorkObject.SelectedItem == null ||
+            cbbObjectRevorkObject.SelectedItem == null || cbbPriviRevorkObject.SelectedItem == null)
+            {
+                MessageBox.Show("Please select all fields.");
+                return;
+            }
+            string granter = cbbGranterRevorkObject.SelectedItem.ToString();
+            string grantee = cbbGranteeRevorkObject.SelectedItem.ToString();
+            string obj = cbbObjectRevorkObject.SelectedItem.ToString();
+            string privilege = cbbPriviRevorkObject.SelectedItem.ToString();
+
+            try
+            {
+                using (OracleConnection connection = Database.Get_Connect())
+                {
+                    if (connection != null)
+                    {
+
+                        string query = $"REVOKE {privilege} ON {granter}.{obj} FROM {grantee}";
+
+                        using (OracleCommand cmd = new OracleCommand(query, connection))
+                        {
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        MessageBox.Show($"Revoked privilege '{privilege}' on '{obj}' from '{grantee}' successfully.");
+
+
+                        cbbPriviRevorkObject_Click(sender, e);
                     }
                     else
                     {

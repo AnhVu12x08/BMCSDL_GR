@@ -19,6 +19,7 @@ namespace Connect_Oracle
         {
             InitializeComponent();
             CenterToScreen();
+            txt_pass.UseSystemPasswordChar = !cb_pass.Checked;
         }
 
 
@@ -62,6 +63,24 @@ namespace Connect_Oracle
             return true;
         }
 
+        void Check_Status(string user)
+        {
+            string status = Database.Get_Status(user);
+
+            if (status.Equals("LOCKED") || status.Equals("LOCKED(TIMED)"))
+            {
+                MessageBox.Show("Tài khoản bị khóa");
+            }
+            
+            else if (status.Equals(""))
+            {
+                MessageBox.Show("Tài khoản không tồn tại");
+            }
+            else
+            {
+                MessageBox.Show("Đăng nhập thất bại!\nXem lại thông tin đăng nhập: UserName, Password");
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             string host = txt_host.Text;
@@ -87,14 +106,16 @@ namespace Connect_Oracle
                     else
                     {
                         this.Hide();
-                        QLNV qlnv = new QLNV();
+                        QLKH qlnv = new QLKH();
                         qlnv.Show();
                     }
 
                 }
                 else
                 {
-                    MessageBox.Show("Login Failed!");
+                    Check_Status(user);
+                    return;
+                    //MessageBox.Show("Login Failed!");
                 }
             }
         }
@@ -105,6 +126,11 @@ namespace Connect_Oracle
             DangKy RegisterForm = new DangKy();
             RegisterForm.Show();
             this.Hide();
+        }
+
+        private void cb_pass_CheckedChanged(object sender, EventArgs e)
+        {
+            txt_pass.UseSystemPasswordChar = !cb_pass.Checked;
         }
     }
 }

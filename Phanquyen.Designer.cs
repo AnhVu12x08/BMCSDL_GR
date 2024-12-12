@@ -39,6 +39,7 @@
             this.checklistObjectSys = new System.Windows.Forms.CheckedListBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.clbPriviRevokeSys = new System.Windows.Forms.CheckedListBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.RevokeSystem = new System.Windows.Forms.Button();
@@ -59,18 +60,17 @@
             this.cbbObjectObj = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.clbPriviRevokeSys = new System.Windows.Forms.CheckedListBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cbbPriviRevorkObject = new System.Windows.Forms.ComboBox();
+            this.btnRevokeObjPrivi = new System.Windows.Forms.Button();
             this.cbbGranterRevorkObject = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cbbGranteeRevorkObject = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.cbbObjectRevorkObject = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.cbbPriviRevorkObject = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -216,6 +216,17 @@
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Revoke";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // clbPriviRevokeSys
+            // 
+            this.clbPriviRevokeSys.CheckOnClick = true;
+            this.clbPriviRevokeSys.FormattingEnabled = true;
+            this.clbPriviRevokeSys.HorizontalScrollbar = true;
+            this.clbPriviRevokeSys.Location = new System.Drawing.Point(247, 71);
+            this.clbPriviRevokeSys.Name = "clbPriviRevokeSys";
+            this.clbPriviRevokeSys.Size = new System.Drawing.Size(295, 293);
+            this.clbPriviRevokeSys.TabIndex = 19;
+            this.clbPriviRevokeSys.Click += new System.EventHandler(this.cbbPriviRevokeSys_Click);
             // 
             // label10
             // 
@@ -416,7 +427,7 @@
             // 
             this.tabPage4.Controls.Add(this.label14);
             this.tabPage4.Controls.Add(this.cbbPriviRevorkObject);
-            this.tabPage4.Controls.Add(this.button4);
+            this.tabPage4.Controls.Add(this.btnRevokeObjPrivi);
             this.tabPage4.Controls.Add(this.cbbGranterRevorkObject);
             this.tabPage4.Controls.Add(this.label11);
             this.tabPage4.Controls.Add(this.cbbGranteeRevorkObject);
@@ -433,46 +444,33 @@
             this.tabPage4.Text = "Revoke";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // label14
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(859, 6);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(99, 35);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Back";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.clickBack);
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(694, 84);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 16);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "Privileges";
             // 
-            // label7
+            // cbbPriviRevorkObject
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(352, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(253, 25);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Revoke Object Privileges";
+            this.cbbPriviRevorkObject.FormattingEnabled = true;
+            this.cbbPriviRevorkObject.Location = new System.Drawing.Point(697, 103);
+            this.cbbPriviRevorkObject.Name = "cbbPriviRevorkObject";
+            this.cbbPriviRevorkObject.Size = new System.Drawing.Size(181, 24);
+            this.cbbPriviRevorkObject.TabIndex = 20;
+            this.cbbPriviRevorkObject.Click += new System.EventHandler(this.cbbPriviRevorkObject_Click);
             // 
-            // clbPriviRevokeSys
+            // btnRevokeObjPrivi
             // 
-            this.clbPriviRevokeSys.CheckOnClick = true;
-            this.clbPriviRevokeSys.FormattingEnabled = true;
-            this.clbPriviRevokeSys.HorizontalScrollbar = true;
-            this.clbPriviRevokeSys.Location = new System.Drawing.Point(247, 71);
-            this.clbPriviRevokeSys.Name = "clbPriviRevokeSys";
-            this.clbPriviRevokeSys.Size = new System.Drawing.Size(295, 293);
-            this.clbPriviRevokeSys.TabIndex = 19;
-            this.clbPriviRevokeSys.Click += new System.EventHandler(this.cbbPriviRevokeSys_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(310, 175);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(138, 23);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Revork ObjPrivi";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnRevokeObjPrivi.Location = new System.Drawing.Point(310, 175);
+            this.btnRevokeObjPrivi.Name = "btnRevokeObjPrivi";
+            this.btnRevokeObjPrivi.Size = new System.Drawing.Size(171, 23);
+            this.btnRevokeObjPrivi.TabIndex = 19;
+            this.btnRevokeObjPrivi.Text = "Revoke ObjPrivi";
+            this.btnRevokeObjPrivi.UseVisualStyleBackColor = true;
+            this.btnRevokeObjPrivi.Click += new System.EventHandler(this.btnRevokeObjPrivi_Click);
             // 
             // cbbGranterRevorkObject
             // 
@@ -515,6 +513,7 @@
             this.cbbObjectRevorkObject.Name = "cbbObjectRevorkObject";
             this.cbbObjectRevorkObject.Size = new System.Drawing.Size(181, 24);
             this.cbbObjectRevorkObject.TabIndex = 14;
+            this.cbbObjectRevorkObject.Click += new System.EventHandler(this.cbbGranterSys_SelectedIndexChanged);
             // 
             // label13
             // 
@@ -525,22 +524,26 @@
             this.label13.TabIndex = 15;
             this.label13.Text = "Granter";
             // 
-            // cbbPriviRevorkObject
+            // button5
             // 
-            this.cbbPriviRevorkObject.FormattingEnabled = true;
-            this.cbbPriviRevorkObject.Location = new System.Drawing.Point(697, 103);
-            this.cbbPriviRevorkObject.Name = "cbbPriviRevorkObject";
-            this.cbbPriviRevorkObject.Size = new System.Drawing.Size(181, 24);
-            this.cbbPriviRevorkObject.TabIndex = 20;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(859, 6);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(99, 35);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "Back";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.clickBack);
             // 
-            // label14
+            // label7
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(694, 84);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(77, 16);
-            this.label14.TabIndex = 21;
-            this.label14.Text = "Privileges";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(352, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(253, 25);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Revoke Object Privileges";
             // 
             // Phanquyen
             // 
@@ -605,7 +608,7 @@
         private System.Windows.Forms.CheckedListBox clbPriviRevokeSys;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cbbPriviRevorkObject;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnRevokeObjPrivi;
         private System.Windows.Forms.ComboBox cbbGranterRevorkObject;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cbbGranteeRevorkObject;
